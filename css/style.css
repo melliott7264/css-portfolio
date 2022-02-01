@@ -3,17 +3,32 @@
 /* Global styles -------------------------------- */
 body {
     color: #343434;
+    margin: 0;
+    padding: 0;
 }
 img {
     width: 300px;
 }
 a {
-    color: #1322f5
+    color: #030c80;
+    text-decoration: none;
 }
 a:hover {
     background-color: rgb(240, 207, 24);
     text-decoration: none;
 }
+h2 {
+    margin: 0;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.header-wrap {
+    text-align: center;
+}
+
 
 /* Profile --------------------------------------- */
 header {
@@ -25,18 +40,19 @@ header {
     background-color: #f7fff7;
 }
 .projects a {
-    color:cornflowerblue;
+    color:#030c80;
 }
 
 .projects .btn {
     color: #f7fff7;
-    background-color: #2f3061;
+    background-color: #030c80;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 .projects .btn:hover {
-    background-color: rgba(47, 48, 97, 70%);
+    background-color: #2f3dff;
 }
 /* Work Experience ---------------------------------*/
 .work_experience {
