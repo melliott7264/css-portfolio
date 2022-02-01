@@ -5,6 +5,9 @@ body {
     color: #343434;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 img {
     width: 300px;
@@ -17,22 +20,30 @@ a:hover {
     background-color: rgb(240, 207, 24);
     text-decoration: none;
 }
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
 h2 {
     margin: 0;
+    font-size: 40px;
 }
 .content-wrap {
     width: 800px;
     margin: 0 auto;
     padding: 60px 0;
 }
-.header-wrap {
-    text-align: center;
-}
 
 
 /* Profile --------------------------------------- */
 header {
     background-color: #75aef8;
+}
+.header-wrap {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    line-height: 1.75;
+
 }
 
 /* Projects ---------------------------------------*/
