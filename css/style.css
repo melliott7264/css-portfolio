@@ -1,6 +1,13 @@
 /* style.css for Mark Elliott's portfolio */
 
 /* Global styles -------------------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #343434;
     margin: 0;
@@ -37,7 +44,7 @@ h2 {
 
 /* Profile --------------------------------------- */
 header {
-    background-color: #75aef8;
+    background-color: #ccc4c4;
 }
 .header-wrap {
     text-align: center;
@@ -65,6 +72,18 @@ header {
 .projects .btn:hover {
     background-color: #2f3dff;
 }
+.project-item {
+    overflow: hidden;
+    border-bottom: 5px solid #343434;
+    padding: 20px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
 /* Work Experience ---------------------------------*/
 .work_experience {
     background-color: #a1c6d7;
@@ -73,7 +92,7 @@ header {
 
 /* Education ---------------------------------------*/
 .education {
-
+    background-color: #f7fff7;
 }
 
 /* Contact Info ------------------------------------*/
