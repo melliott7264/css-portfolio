@@ -61,12 +61,7 @@ h3 {
 header {
     background-color: #ccc4c4;
 }
-.header-wrap {
-    text-align: center;
-    /* font-family: 'Poppins', sans-serif; */
-    line-height: 1.75;
 
-}
 
 /* Projects ---------------------------------------*/
 .projects {
@@ -90,10 +85,7 @@ header {
 .project-item {
     overflow: hidden;
  }
-.project-item img {
-    float: left;
-    margin-right: 20px;
-}
+
 .project-item h3 {
     margin-top: 0;
 }
@@ -101,17 +93,13 @@ header {
 .work_experience {
     background-color: #a1c6d7;
 }
-.job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
- }
+
 
 
 
 /* Education ---------------------------------------*/
 .education {
-    background-color: #f7fff7;
+    /* background-color: #f7fff7; */
     background-image: url(../images/joanna-kosinska-unsplash.jpg);
     background-size: cover;
     background-position: top right;
@@ -124,17 +112,52 @@ header {
 /* Contact Info ------------------------------------*/
 footer {
     background-color: #ccc4c4;
-    text-align: center;
 }
 .contact-list {
     list-style-type: none;
     padding: 0;
-    /* width: 500px; */
-    display: -webkit-flex;
-    justify-content: center;
 }       
 .contact-list-item a {
-    padding: 15px;
+    padding: 5px;
     display: inline-block;
-    /* flex: 25%; */
+}
+
+/* Responsive styles ------------------------------------*/
+@media screen and ( min-width: 750px ){
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+     }
+    .header-wrap {
+        text-align: center;
+        /* font-family: 'Poppins', sans-serif; */
+        line-height: 1.75;
+    }
+    footer {
+        text-align: center;
+    }
+    .contact-list {
+        display: -webkit-flex;
+        justify-content: center;
+    }    
+    .contact-list-item a {
+        padding: 15px;
+    }   
+ 
+}
+@media screen and ( max-width: 749px ){
+h1 {
+    font-size: 50px;
+    line-height: 1;
+}
+h2 {
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 7px;
+}
 }
