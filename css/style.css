@@ -1,5 +1,4 @@
 /* style.css for Mark Elliott's portfolio */
-
 /* Global styles -------------------------------- */
 html {
     box-sizing: border-box;
@@ -7,7 +6,6 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 body {
     color: #343434;
     margin: 0;
@@ -61,8 +59,6 @@ h3 {
 header {
     background-color: #ccc4c4;
 }
-
-
 /* Projects ---------------------------------------*/
 .projects {
     background-color: #f7fff7;
@@ -70,7 +66,6 @@ header {
 .projects a {
     color:#030c80;
 }
-
 .projects .btn {
     color: #f7fff7;
     background-color: #030c80;
@@ -93,13 +88,10 @@ header {
 .work_experience {
     background-color: #a1c6d7;
 }
-
-
-
-
 /* Education ---------------------------------------*/
 .education {
     /* background-color: #f7fff7; */
+    /* free image by Joanna Kosinska from unsplash.com */
     background-image: url(../images/joanna-kosinska-unsplash.jpg);
     background-size: cover;
     background-position: top right;
@@ -108,7 +100,6 @@ header {
 .educaton p {
     width: 60%;
 }
-
 /* Contact Info ------------------------------------*/
 footer {
     background-color: #ccc4c4;
@@ -121,9 +112,8 @@ footer {
     padding: 5px;
     display: inline-block;
 }
-
 /* Responsive styles ------------------------------------*/
-/* Styles for screens 750px or widers */
+/* Styles for screens 750px or wider */
 @media screen and ( min-width: 750px ){
     .project-item img {
         float: left;
