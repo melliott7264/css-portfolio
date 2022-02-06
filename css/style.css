@@ -34,6 +34,7 @@ h2 {
     font-size: 40px;
 }
 .content-wrap {
+    /* max-width and width as a percentage is part of flexible design for this page */
     max-width: 800px;
     width: 85%;
     margin: 0 auto;
@@ -114,7 +115,7 @@ footer {
 }
 /* Responsive styles ------------------------------------*/
 /* Styles for screens 750px or wider */
-@media screen and ( min-width: 750px ){
+@media screen and ( min-width: 720px ){
     .project-item img {
         float: left;
         margin-right: 20px;
@@ -142,7 +143,7 @@ footer {
  
 }
 /* Styles for screens 749px of smaller */
-@media screen and ( max-width: 749px ){
+@media screen and ( max-width: 719px ){
 h1 {
     font-size: 50px;
     line-height: 1;
