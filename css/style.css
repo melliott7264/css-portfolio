@@ -135,7 +135,7 @@ footer {
         text-align: center;
     }
     .contact-list {
-        display: -webkit-flex;
+        display: flex;
         justify-content: center;
     }    
     .contact-list-item a {
