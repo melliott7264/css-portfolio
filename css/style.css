@@ -19,20 +19,20 @@ img {
 }
 a {
     color: #030c80;
-    text-decoration: none;
-}
+  }
 a:hover {
     background-color: rgb(240, 207, 24);
-    text-decoration: none;
-}
+   }
 h1 {
     font-size: 60px;
     margin: 0;
 }
 h2 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     font-size: 40px;
+}
+.extra_margin {
+    margin-top: 15px;
 }
 .content-wrap {
     /* max-width and width as a percentage is part of flexible design for this page */
