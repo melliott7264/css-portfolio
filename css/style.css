@@ -115,7 +115,7 @@ footer {
     display: inline-block;
 }
 /* Responsive styles ------------------------------------*/
-/* Styles for screens 750px or wider */
+/* Styles for screens 720px or wider */
 @media screen and ( min-width: 720px ){
     .project-item img {
         float: left;
@@ -128,7 +128,7 @@ footer {
      }
     .header-wrap {
         text-align: center;
-        /* font-family: 'Poppins', sans-serif; */
+        font-family: 'Poppins', sans-serif;
         line-height: 1.75;
     }
     footer {
@@ -143,7 +143,7 @@ footer {
     }   
  
 }
-/* Styles for screens 749px of smaller */
+/* Styles for screens 719px of smaller */
 @media screen and ( max-width: 719px ){
 h1 {
     font-size: 50px;
